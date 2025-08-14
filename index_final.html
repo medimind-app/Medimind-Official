@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medimind - Your Ultimate NEET Preparation Companion</title>
+    <meta name="description" content="Unlock Medimind's comprehensive NEET preparation platform with premium study materials, mock tests, and expert guidance for just ₹29.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h2>✨ Medimind</h2>
+                <span class="tagline">NEET Success Platform</span>
+            </div>
+            <div class="navbar-menu">
+                <a href="#payment" class="nav-link">Payment</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#why-choose" class="nav-link">Why Choose</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#legal" class="nav-link">Legal</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden">
+        <div class="mobile-menu-content">
+            <a href="#payment" class="mobile-nav-link">Payment</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#why-choose" class="mobile-nav-link">Why Choose</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+            <a href="#legal" class="mobile-nav-link">Legal</a>
+        </div>
+    </div>
+
+    <!-- Payment Section (Main Hero) -->
+    <section id="payment" class="payment-section">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="payment-hero">
+                <div class="hero-content">
+                    <div class="hero-badge">🚀 Limited Time Offer</div>
+                    <h1>Unlock Medimind – Start Your NEET Success Journey!</h1>
+                    <p class="hero-subtitle">Get premium practice material, tools, and guidance for NEET — transform your preparation today!</p>
+                    
+                    <div class="benefits-showcase">
+                        <div class="benefit-item glassmorphism">
+                            <span class="benefit-icon">📋</span>
+                            <span>Comprehensive Study Planners</span>
+                        </div>
+                        <div class="benefit-item glassmorphism">
+                            <span class="benefit-icon">📊</span>
+                            <span>Mock Test Analysis</span>
+                        </div>
+                        <div class="benefit-item glassmorphism">
+                            <span class="benefit-icon">📜</span>
+                            <span>Previous Year Questions</span>
+                        </div>
+                        <div class="benefit-item glassmorphism">
+                            <span class="benefit-icon">⏰</span>
+                            <span>Time Management Tools</span>
+                        </div>
+                    </div>
+
+                    <div class="payment-cta">
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_R525jriFXc5cMi" async> </script> </form>
+                        <p class="payment-note">🔒 Secure payment via Razorpay</p>
+                        <div class="trust-indicators">
+                            <span class="trust-item">✅ Instant Access</span>
+                            <span class="trust-item">✅ Money Back Guarantee</span>
+                            <span class="trust-item">✅ 24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-form-section">
+                    <div class="glassmorphism payment-form-card">
+                        <div class="card__body">
+                            <h3>💳 Payment Confirmation</h3>
+                            <p>After completing payment, fill this form for instant verification:</p>
+                            
+                            <form action="https://formspree.io/f/meozndqk" method="POST" class="payment-form">
+                                <div class="form-group floating-label">
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                    <label for="name" class="form-label">Full Name *</label>
+                                </div>
+                                
+                                <div class="form-group floating-label">
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                    <label for="email" class="form-label">Email Address *</label>
+                                </div>
+                                
+                                <div class="form-group floating-label">
+                                    <input type="tel" id="phone" name="phone" class="form-control">
+                                    <label for="phone" class="form-label">Phone Number (Optional)</label>
+                                </div>
+                                
+                                <div class="form-group floating-label">
+                                    <input type="text" id="transaction" name="transaction_id" class="form-control" required>
+                                    <label for="transaction" class="form-label">Payment Transaction ID *</label>
+                                </div>
+                                
+                                <button type="submit" class="btn-premium btn--full-width">
+                                    <span class="btn-text">Submit for Verification</span>
+                                    <span class="btn-shine"></span>
+                                </button>
+                            </form>
+                            
+                            <div class="verification-message glassmorphism">
+                                <div class="success-icon">✨</div>
+                                <strong>Manual Verification Process:</strong> Thank you for your payment! Our team will contact you within 24 hours to give you access to the Medimind app and website.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Medimind Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">📚 About Medimind</div>
+                <h2>Prepare smarter, stay organized, and achieve your NEET dream</h2>
+                <p>Everything you need to excel in NEET 2026, designed by experts for serious aspirants</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">📋</div>
+                    <h3>Goal Setting & Planning Tools</h3>
+                    <p>Comprehensive daily, weekly, and monthly planners with goal worksheets and progress tracking systems.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+                
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">📚</div>
+                    <h3>Subject-Wise Study Materials</h3>
+                    <p>Complete Biology, Chemistry, and Physics resources with difficulty-based chapter categorization and targeted preparation.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+                
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">📊</div>
+                    <h3>Mock Test Analysis & Tracking</h3>
+                    <p>Detailed test analysis with subject-wise scoring, negative marking insights, and performance improvement suggestions.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+                
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">📜</div>
+                    <h3>Previous Year Questions Bank</h3>
+                    <p>Comprehensive PYQ analysis with year-wise breakdown and subject-specific question patterns and solutions.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+                
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">⏰</div>
+                    <h3>Pomodoro & Time Management</h3>
+                    <p>Integrated Pomodoro technique sheets with time tracking, study session planning, and productivity optimization.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+                
+                <div class="feature-card glassmorphism">
+                    <div class="feature-icon gradient-icon">✅</div>
+                    <h3>Habit Tracking & Self-improvement</h3>
+                    <p>21-day, 100-day, and full-year habit trackers with health monitoring and daily improvement tracking systems.</p>
+                    <div class="feature-highlight"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Medimind Section -->
+    <section id="why-choose" class="why-choose-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">🏆 Why Choose Us</div>
+                <h2>Why Choose Medimind?</h2>
+                <p>Discover what makes Medimind the perfect NEET preparation companion</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>Designed specifically for NEET aspirants</h3>
+                        <p>Every feature and tool is crafted specifically for NEET exam requirements and student needs.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>All-in-one comprehensive platform</h3>
+                        <p>Everything you need in one place - no need to juggle multiple apps or resources.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>Focus on consistency and improvement</h3>
+                        <p>Built-in tracking and habit formation tools to ensure consistent daily progress.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>Expert-designed study materials</h3>
+                        <p>All content and tools designed by experienced NEET educators and successful candidates.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>Affordable one-time payment</h3>
+                        <p>Premium quality resources at an incredibly affordable price with no hidden charges.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card glassmorphism">
+                    <div class="benefit-check gradient-check">✔</div>
+                    <div class="benefit-content">
+                        <h3>Manual verification ensures quality access</h3>
+                        <p>Personal attention and manual verification ensures you get proper guidance from day one.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Support Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">📞 Support</div>
+                <h2>Contact & Support</h2>
+                <p>We're here to help you succeed in your NEET preparation journey</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info glassmorphism">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Support Email</h3>
+                        <a href="mailto:nk9897637@gmail.com">nk9897637@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💳</div>
+                        <h3>Payment Process</h3>
+                        <ol>
+                            <li>Click "Pay ₹29 Now" and complete payment via Razorpay</li>
+                            <li>Fill the payment confirmation form with transaction details</li>
+                            <li>Our team verifies your payment within 24 hours</li>
+                            <li>Receive access details via email</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="faq-section glassmorphism">
+                    <h3>❓ Frequently Asked Questions</h3>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">How does the payment verification work?</div>
+                        <div class="faq-answer">After you complete the ₹29 payment, fill out the confirmation form with your transaction details. Our team manually verifies each payment within 24 hours and sends access details to your registered email.</div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">What exactly do I get access to?</div>
+                        <div class="faq-answer">You'll get access to comprehensive NEET preparation materials including study planners, subject-wise resources, mock test analysis tools, PYQ banks, habit trackers, and exclusive planning templates.</div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Is this a one-time payment?</div>
+                        <div class="faq-answer">Yes, this is a special one-time payment of ₹29 for limited access. No recurring charges or hidden fees.</div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">What if my payment is not verified?</div>
+                        <div class="faq-answer">If there's any issue with verification, we'll contact you within 24 hours. For technical support, email us at nk9897637@gmail.com with your transaction details.</div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Can I get a refund?</div>
+                        <div class="faq-answer">Due to the digital nature and low cost of the product, refunds are processed only in case of technical errors or double payments. Contact support within 48 hours if needed.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Pages Section -->
+    <section id="legal" class="legal-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">⚖️ Legal</div>
+                <h2>Legal Information</h2>
+                <p>Comprehensive legal information and policies</p>
+            </div>
+            
+            <div class="legal-navigation">
+                <button class="legal-tab active" data-tab="terms">Terms & Conditions</button>
+                <button class="legal-tab" data-tab="privacy">Privacy Policy</button>
+                <button class="legal-tab" data-tab="shipping">Shipping Policy</button>
+                <button class="legal-tab" data-tab="contact-legal">Contact Us</button>
+                <button class="legal-tab" data-tab="refunds">Cancellation & Refunds</button>
+            </div>
+            
+            <div class="legal-content glassmorphism">
+                <!-- Terms and Conditions -->
+                <div class="legal-page active" id="terms">
+                    <h3>📋 Terms and Conditions</h3>
+                    <div class="legal-text">
+                        <h4>1. Service Usage</h4>
+                        <p>By accessing Medimind, you agree to use our NEET preparation platform responsibly and in accordance with these terms. Our platform provides study materials, planning tools, and educational resources specifically designed for NEET aspirants.</p>
+                        
+                        <h4>2. Payment Terms</h4>
+                        <p>The one-time payment of ₹29 grants you access to our comprehensive NEET preparation materials. Payment is processed securely through Razorpay. Manual verification is required within 24 hours of payment.</p>
+                        
+                        <h4>3. Access Rights</h4>
+                        <p>Upon successful payment verification, you will receive access credentials via email. Access is granted for personal use only and cannot be shared or transferred to others.</p>
+                        
+                        <h4>4. Intellectual Property</h4>
+                        <p>All study materials, templates, and content provided through Medimind are proprietary and protected by copyright. Users may not redistribute, sell, or share these materials without explicit permission.</p>
+                        
+                        <h4>5. User Responsibilities</h4>
+                        <p>Users are responsible for maintaining the confidentiality of their access credentials and for all activities under their account. Any misuse may result in account termination.</p>
+                        
+                        <h4>6. Service Modifications</h4>
+                        <p>We reserve the right to modify, update, or discontinue any aspect of our service with reasonable notice to users. Critical updates will be communicated via email.</p>
+                    </div>
+                </div>
+
+                <!-- Privacy Policy -->
+                <div class="legal-page" id="privacy">
+                    <h3>🔒 Privacy Policy</h3>
+                    <div class="legal-text">
+                        <h4>1. Information Collection</h4>
+                        <p>We collect personal information including name, email address, and phone number (optional) during the registration and payment process. Payment transaction details are collected for verification purposes only.</p>
+                        
+                        <h4>2. Information Usage</h4>
+                        <p>Your information is used to provide access to our platform, verify payments, send important updates, and provide customer support. We do not use your information for marketing without explicit consent.</p>
+                        
+                        <h4>3. Data Protection</h4>
+                        <p>We implement industry-standard security measures to protect your personal information. Your data is stored securely and is never shared with third parties except as required for payment processing.</p>
+                        
+                        <h4>4. Cookies and Tracking</h4>
+                        <p>Our website uses minimal cookies for essential functionality and user experience improvement. We do not use tracking cookies for advertising purposes.</p>
+                        
+                        <h4>5. Data Retention</h4>
+                        <p>We retain your information only as long as necessary to provide our services and comply with legal requirements. You may request data deletion by contacting our support team.</p>
+                        
+                        <h4>6. Contact for Privacy Concerns</h4>
+                        <p>For any privacy-related questions or concerns, please contact us at nk9897637@gmail.com. We are committed to addressing your privacy concerns promptly.</p>
+                    </div>
+                </div>
+
+                <!-- Shipping Policy -->
+                <div class="legal-page" id="shipping">
+                    <h3>📦 Shipping Policy</h3>
+                    <div class="legal-text">
+                        <h4>1. Digital Product Delivery</h4>
+                        <p>Medimind offers exclusively digital products. No physical items are shipped. All study materials, templates, and resources are provided through digital access to our platform.</p>
+                        
+                        <h4>2. Delivery Timeline</h4>
+                        <p>Digital access is provided within 24 hours of payment verification. You will receive access credentials and instructions via email to the address provided during registration.</p>
+                        
+                        <h4>3. Access Instructions</h4>
+                        <p>After payment verification, you will receive detailed instructions on how to access your Medimind account, download materials, and utilize all available features.</p>
+                        
+                        <h4>4. Technical Requirements</h4>
+                        <p>Users need a device with internet connectivity and basic document viewing capabilities (PDF reader). Most materials are accessible via web browser on any modern device.</p>
+                        
+                        <h4>5. Delivery Confirmation</h4>
+                        <p>Delivery is considered complete when access credentials are sent to your registered email address. Please check spam/junk folders if you don't receive our email within 24 hours.</p>
+                        
+                        <h4>6. Support for Access Issues</h4>
+                        <p>If you experience any difficulties accessing your materials, please contact our support team immediately at nk9897637@gmail.com for prompt assistance.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="legal-page" id="contact-legal">
+                    <h3>📞 Contact Us</h3>
+                    <div class="legal-text">
+                        <h4>Primary Support Channel</h4>
+                        <p><strong>Email:</strong> nk9897637@gmail.com</p>
+                        <p><strong>Response Time:</strong> Within 24 hours for all inquiries</p>
+                        
+                        <h4>Support Hours</h4>
+                        <p>Our support team operates Monday to Sunday, responding to all emails within 24 hours. For urgent payment-related issues, please mention "URGENT - PAYMENT" in your subject line.</p>
+                        
+                        <h4>What to Include in Your Message</h4>
+                        <ul>
+                            <li>Your full name and registered email address</li>
+                            <li>Transaction ID (for payment-related queries)</li>
+                            <li>Detailed description of your issue or question</li>
+                            <li>Screenshots if applicable (for technical issues)</li>
+                        </ul>
+                        
+                        <h4>Common Query Types</h4>
+                        <ul>
+                            <li>Payment verification and access issues</li>
+                            <li>Technical support for platform access</li>
+                            <li>Questions about study materials and features</li>
+                            <li>Account-related inquiries</li>
+                            <li>Refund requests and processing</li>
+                        </ul>
+                        
+                        <h4>Quality Assurance</h4>
+                        <p>We are committed to providing excellent customer service. All inquiries are handled personally with care and attention to ensure your success in NEET preparation.</p>
+                    </div>
+                </div>
+
+                <!-- Cancellation and Refunds -->
+                <div class="legal-page" id="refunds">
+                    <h3>💰 Cancellation and Refunds</h3>
+                    <div class="legal-text">
+                        <h4>1. Refund Policy Overview</h4>
+                        <p>Due to the digital nature and extremely affordable pricing (₹29) of our product, refunds are limited to specific circumstances outlined below.</p>
+                        
+                        <h4>2. Eligible Refund Scenarios</h4>
+                        <ul>
+                            <li>Technical errors preventing access after payment verification</li>
+                            <li>Double payment due to technical glitches</li>
+                            <li>Payment processed but service not delivered within 48 hours</li>
+                            <li>Significant service disruption preventing platform access</li>
+                        </ul>
+                        
+                        <h4>3. Non-Refundable Scenarios</h4>
+                        <ul>
+                            <li>Change of mind after accessing materials</li>
+                            <li>Dissatisfaction with content (due to preview availability)</li>
+                            <li>Personal circumstances preventing study</li>
+                            <li>Requests made after 7 days of access provision</li>
+                        </ul>
+                        
+                        <h4>4. Refund Process</h4>
+                        <p>To request a refund, email nk9897637@gmail.com within 48 hours of payment with your transaction details and reason for refund. We will review and respond within 24 hours.</p>
+                        
+                        <h4>5. Processing Timeline</h4>
+                        <p>Approved refunds are processed within 5-7 business days through the original payment method. You will receive confirmation once the refund is initiated.</p>
+                        
+                        <h4>6. Alternative Solutions</h4>
+                        <p>Before processing refunds, we work with users to resolve any technical issues or concerns. Our goal is to ensure every student has access to quality NEET preparation resources.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>✨ Medimind</h3>
+                    <p>Your Ultimate NEET Preparation Companion</p>
+                    <div class="footer-social">
+                        <span>🚀 Transforming NEET Preparation Since 2025</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#payment">Payment</a>
+                    <a href="#about">About</a>
+                    <a href="#why-choose">Why Choose</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#legal">Legal</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Support</h4>
+                    <p>📧 <a href="mailto:nk9897637@gmail.com">nk9897637@gmail.com</a></p>
+                    <p>⏰ Response within 24 hours</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Medimind. All rights reserved. | Built with ❤️ for NEET aspirants</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
